@@ -1,5 +1,5 @@
-
 import { Link } from "react-router-dom";
+import { Instagram, Facebook, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -94,27 +94,30 @@ const Footer = () => {
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a 
-              href="https://instagram.com" 
+              href="https://instagram.com/ak_calligrapher0908" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-muted-foreground hover:text-primary transition-colors flex items-center"
             >
+              <Instagram className="mr-1 h-4 w-4" />
               Instagram
             </a>
             <a 
               href="https://facebook.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-muted-foreground hover:text-primary transition-colors flex items-center"
             >
+              <Facebook className="mr-1 h-4 w-4" />
               Facebook
             </a>
             <a 
               href="https://pinterest.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-muted-foreground hover:text-primary transition-colors flex items-center"
             >
+              <Linkedin className="mr-1 h-4 w-4" />
               Pinterest
             </a>
           </div>
