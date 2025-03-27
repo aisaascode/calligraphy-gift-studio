@@ -263,10 +263,10 @@ const Contact = () => {
                     <h3 className="font-medium">Email</h3>
                     <p className="text-muted-foreground">
                       <a 
-                        href="mailto:hello@akcalligraphy.com" 
+                        href="mailto:ankushkumar090809@gmail.com" 
                         className="hover:text-primary transition-colors"
                       >
-                        hello@akcalligraphy.com
+                        ankushkumar090809@gmail.com
                       </a>
                     </p>
                   </div>
@@ -278,10 +278,10 @@ const Contact = () => {
                     <h3 className="font-medium">Phone</h3>
                     <p className="text-muted-foreground">
                       <a 
-                        href="tel:+1234567890" 
+                        href="tel:+919625654137" 
                         className="hover:text-primary transition-colors"
                       >
-                        (123) 456-7890
+                        +91 9625654137
                       </a>
                     </p>
                   </div>
@@ -292,8 +292,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-medium">Studio Location</h3>
                     <p className="text-muted-foreground">
-                      123 Calligraphy Lane<br />
-                      Artsville, CA 90210
+                      Heera Nagar Gali No. 1<br />
+                      Near Gautam and Company<br />
+                      Gurugram, Haryana
                     </p>
                   </div>
                 </div>
